@@ -22,5 +22,11 @@
         "**/tags.html": true,
         "**/404.html": true,
 
-    }
+    },
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ]
 }
