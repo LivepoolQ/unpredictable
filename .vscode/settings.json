@@ -28,5 +28,6 @@
         "**/README.md",
         "**/*.txt",
         "**/*.md"
-    ]
+    ],
+    "editor.unicodeHighlight.nonBasicASCII": true
 }
