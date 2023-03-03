@@ -1,0 +1,26 @@
+/*
+ * @Author: Conghao Wong
+ * @Date: 2023-03-03 16:11:49
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2023-03-03 16:12:41
+ * @Description: file content
+ * @Github: https://cocoon2wong.github.io
+ * Copyright 2023 Conghao Wong, All Rights Reserved.
+ */
+
+
+/* 强调色 */
+.h_01 {
+    font-weight: bold;
+    color: rgb(0, 155, 249);
+}
+
+.h_02 {
+    font-weight: bold;
+    color: rgb(95, 207, 66);
+}
+
+.h_03 {
+    font-weight: bold;
+    color: rgb(252, 162, 47);
+}
