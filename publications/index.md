@@ -6,7 +6,7 @@ title: Publications
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-03-28 11:29:36
+ * @LastEditTime: 2023-03-28 14:53:31
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -20,8 +20,8 @@ title: Publications
     C. Wong, B. Xia, et al. ***Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums.***
 
     <div>
-        <!-- <a class="btn btn-info btn-lg get-started-btn" href="https://github.com/cocoon2wong/Vertical">GitHub</a>
-        <a class="btn btn-info btn-lg get-started-btn" href="https://arxiv.org/abs/2110.07288">Paper</a> -->
+        <a class="btn btn-info btn-lg get-started-btn" href="https://github.com/cocoon2wong/E-Vertical">GitHub</a>
+        <!-- <a class="btn btn-info btn-lg get-started-btn" href="https://arxiv.org/abs/2110.07288">Paper</a> -->
         <a class="btn btn-info btn-lg get-started-btn" href="https://cocoon2wong.github.io/2023-02-27-ev/">Post</a>
     </div>
 
