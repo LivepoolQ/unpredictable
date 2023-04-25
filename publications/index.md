@@ -5,8 +5,8 @@ title: Publications
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
- * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-04-13 17:00:14
+ * @LastEditors: Beihao Xia
+ * @LastEditTime: 2023-04-25 19:26:42
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -46,11 +46,11 @@ title: Publications
 
 ## 2021
 
-- <strong class="hf_03">In progress</strong>
-    C. Wong, B. Xia, Q. Peng, and X. You. ***Msn: Multi-style network for trajectory prediction.*** arXiv preprint arXiv:2107.00932, 2021.
+- <strong class="hf_02">Journal</strong>
+    C. Wong, B. Xia, Q. Peng, W. Yuan, and X. You. ***Msn: Multi-style network for trajectory prediction.*** IEEE Transactions on Intelligent Transportation Systems, 2023.
 
     <div>
         <a class="btn btn-info btn-lg" href="https://github.com/northocean/msn">GitHub</a>
         <a class="btn btn-info btn-lg" href="https://arxiv.org/abs/2107.00932">Paper</a>
-        <a class="btn btn-info btn-lg" href="https://cocoon2wong.github.io/2022-06-30-msn/">Post</a>
+        <a class="btn btn-info btn-lg" href="https://northocean.github.io/MSN/">Homepage</a>
     </div>
