@@ -2,12 +2,13 @@
 layout: page
 title: Team
 # subtitle: Team Members
+cover-img: /subassets/img/pic_team.png
 ---
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-02-27 09:54:41
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-04-28 18:30:32
+ * @LastEditTime: 2023-04-28 18:56:57
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -36,9 +37,9 @@ title: Team
         </p>
         
         <div>
-            <a class="btn btn-info btn-lg get-started-btn" href="mailto:xbh_hust@hust.edu.cn">✉️</a>
-            <a class="btn btn-info btn-lg get-started-btn" href="https://github.com/northocean">GitHub</a>
-            <a class="btn btn-info btn-lg get-started-btn" href="/team/beihaoxia">Home page</a>
+            <a class="btn btn-colorful btn-lg" href="mailto:xbh_hust@hust.edu.cn">✉️</a>
+            <a class="btn btn-colorful btn-lg" href="https://github.com/northocean">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="/team/beihaoxia">Home page</a>
         </div>
     </div>
 
@@ -50,9 +51,9 @@ title: Team
         </p>
 
         <div>
-            <a class="btn btn-info btn-lg get-started-btn" href="mailto:conghaowong@icloud.com">✉️</a>
-            <a class="btn btn-info btn-lg get-started-btn" href="https://github.com/cocoon2wong">GitHub</a>
-            <a class="btn btn-info btn-lg get-started-btn" href="/team/conghaowong">Home page</a>
+            <a class="btn btn-colorful btn-lg" href="mailto:conghaowong@icloud.com">✉️</a>
+            <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="/team/conghaowong">Home page</a>
         </div>
     </div>
 

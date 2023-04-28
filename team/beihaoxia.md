@@ -13,8 +13,6 @@ subtitle: Beihao Xia
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
-<link rel="stylesheet" type="text/css" href="/subassets/css/user.css">
-
 ### Information
 
 <div class="cv_image">
@@ -28,8 +26,8 @@ subtitle: Beihao Xia
             Huazhong University of Science and Technology
         </p>
         <div>
-            <a class="btn btn-info btn-lg get-started-btn" href="mailto:xbh_hust@hust.edu.cn">✉️</a>
-            <a class="btn btn-info btn-lg get-started-btn" href="https://github.com/northocean">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="mailto:xbh_hust@hust.edu.cn">✉️</a>
+            <a class="btn btn-colorful btn-lg" href="https://github.com/northocean">GitHub</a>
         </div>
     </div>
 </div>

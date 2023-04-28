@@ -7,13 +7,11 @@ subtitle: Conghao Wong
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:44:52
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-04-28 18:30:25
+ * @LastEditTime: 2023-04-28 18:58:49
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
-
-<link rel="stylesheet" type="text/css" href="/subassets/css/user.css">
 
 ### Information
 
@@ -28,8 +26,8 @@ subtitle: Conghao Wong
             Huazhong University of Science and Technology
         </p>
         <div>
-            <a class="btn btn-info btn-lg get-started-btn" href="mailto:conghaowong@icloud.com">✉️</a>
-            <a class="btn btn-info btn-lg get-started-btn" href="https://github.com/cocoon2wong">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="mailto:conghaowong@icloud.com">✉️</a>
+            <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong">GitHub</a>
         </div>
     </div>
 </div>

@@ -1,13 +1,14 @@
 {
     "files.exclude": {
         "**/_data": true,
-        "**/_includes": true,
-        "**/_layouts": true,
+        "**/_site": true,
+        // "**/_includes": true,
+        // "**/_layouts": true,
 
         "**/.github": true,
 
-        "**/assets/css": true,
-        "**/assets/js": true,
+        // "**/assets/css": true,
+        // "**/assets/js": true,
 
         "**/docs": true,
 
@@ -27,7 +28,14 @@
         "**/readme.md",
         "**/README.md",
         "**/*.txt",
-        "**/*.md"
     ],
-    "editor.unicodeHighlight.nonBasicASCII": true
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "colorize.include": [
+        "**/*.yml",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl"
+    ],
 }
