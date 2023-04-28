@@ -35,13 +35,27 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-      - name: Build the site in the jekyll/builder container
+          
+      - name: Copy softlink files
         run: |
-          export JEKYLL_VERSION=3.8
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          -e PAGES_REPO_NWO=${{ github.repository }} \
-          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+          mv ./_layouts ./_layouts_backup
+          mv ./_includes ./_includes_backup
+          mv ./assets ./assets_backup
+          mkdir ./assets
+          mkdir ./_includes
+          mkdir ./_layouts
+          cp -r ./assets_backup/* ./assets/
+          cp -r ./_includes_backup/* ./_includes/
+          cp -r ./_layouts_backup/* ./_layouts/
+          ls
+          
+      - name: Build the site in the jekyll/builder container
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
+          future: false
+          verbose: true
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
