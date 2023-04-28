@@ -5,14 +5,14 @@ title: Publications
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
- * @LastEditors: Beihao Xia
- * @LastEditTime: 2023-04-25 19:26:42
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2023-04-28 18:30:04
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
-<link rel="stylesheet" type="text/css" href="/assets/css/user.css">
+<link rel="stylesheet" type="text/css" href="/subassets/css/user.css">
 
 ## 2023
 

@@ -7,7 +7,7 @@ title: Team
  * @Author: Conghao Wong
  * @Date: 2023-02-27 09:54:41
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-03-03 18:16:52
+ * @LastEditTime: 2023-04-28 18:30:32
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -23,10 +23,10 @@ title: Team
 
 <div class="team_table">
     <div>
-        <img src='/assets/img/team/beihaoxia.png'>
+        <img src='/subassets/img/team/beihaoxia.png'>
     </div>
     <div>
-        <img src='/assets/img/team/conghaowong.png'>
+        <img src='/subassets/img/team/conghaowong.png'>
     </div>
     <div>
         <h3>Beihao Xia</h3>
