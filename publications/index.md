@@ -7,13 +7,21 @@ cover-img: /subassets/img/pic_publications.png
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-04-28 18:55:03
+ * @LastEditTime: 2023-08-21 17:20:52
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
 ## 2023
+
+- <strong class="hf_03">In progress</strong>
+    C. Wong, B. Xia, et al. ***SocialCircle: Learning the Angle-based Social Interaction Representation for Pedestrian Trajectory Prediction.*** *TBA*, 2023.
+
+    <div>
+        <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/SocialCircle">GitHub</a>
+        <a class="btn btn-colorful btn-lg" href="https://cocoon2wong.github.io/SocialCircle">Homepage</a>
+    </div>
 
 - <strong class="hf_03">In progress</strong>
     C. Wong, B. Xia, et al. ***Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums.*** arXiv preprint arXiv:2304.05106, 2023.
