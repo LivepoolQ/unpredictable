@@ -6,8 +6,8 @@ cover-img: /subassets/img/pic_publications.png
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
- * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-10-12 20:04:47
+ * @LastEditors: Ziqian Zou
+ * @LastEditTime: 2024-03-07 17:18:10
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -24,11 +24,11 @@ cover-img: /subassets/img/pic_publications.png
             Prediction
         </h1>
         <h2 class="publication_author">
-            C. Wong, B. Xia, et al.
+            C. Wong, B. Xia, Z. Zou, Y. Wang, X. You.
         </h2>
-        <strong class="hf_03">In progress</strong>
+        <strong class="hf_01">Conference</strong>
         <h2 class="publication_journal">
-            arXiv preprint arXiv:2310.05370, 2023
+            IEEE/CVF International Conference on Computer Vision, 2024
         </h2>
         <div class="publication_buttons">
             <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/SocialCircle">GitHub</a>
