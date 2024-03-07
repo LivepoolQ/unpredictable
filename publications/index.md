@@ -6,8 +6,8 @@ cover-img: /subassets/img/pic_publications.png
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
- * @LastEditors: Ziqian Zou
- * @LastEditTime: 2024-03-07 17:18:10
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2024-03-07 17:46:59
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -28,7 +28,7 @@ cover-img: /subassets/img/pic_publications.png
         </h2>
         <strong class="hf_01">Conference</strong>
         <h2 class="publication_journal">
-            IEEE/CVF International Conference on Computer Vision, 2024
+            IEEE/CVF International Conference on Computer Vision and Pattern Recognition Conference, 2024
         </h2>
         <div class="publication_buttons">
             <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/SocialCircle">GitHub</a>
