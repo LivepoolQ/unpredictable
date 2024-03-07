@@ -7,8 +7,8 @@ cover-img: /subassets/img/pic_team.png
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-02-27 09:54:41
- * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-04-28 18:56:57
+ * @LastEditors: Ziqian Zou
+ * @LastEditTime: 2024-02-29 21:43:00
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -29,6 +29,7 @@ cover-img: /subassets/img/pic_team.png
     <div>
         <img src='/subassets/img/team/conghaowong.png'>
     </div>
+    
     <div>
         <h3>Beihao Xia</h3>
         <p>
@@ -56,6 +57,35 @@ cover-img: /subassets/img/pic_team.png
             <a class="btn btn-colorful btn-lg" href="/team/conghaowong">Home page</a>
         </div>
     </div>
+</div>
+<br><br>
+<div class="team_table">
+    <div>
+        <img src='/subassets/img/team/beihaoxia.png'>
+    </div>
+    <div>
+       
+    </div>
+    
+    <div>
+        <h3>Ziqian Zou</h3>
+        <p>
+            Ph. D Student <br/>
+            Huazhong University of Science and Technology
+        </p>
 
+        <div>
+            <a class="btn btn-colorful btn-lg" href="mailto:ziqianzoulive@icloud.com">✉️</a>
+            <a class="btn btn-colorful btn-lg" href="https://github.com/LivepoolQ">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="/team/ziqianzou">Home page</a>
+        </div>
+    </div>
+
+    <div>
+        
+    </div>
+
+    
+    
 </div>
 
