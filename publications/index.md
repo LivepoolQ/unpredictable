@@ -28,7 +28,7 @@ cover-img: /subassets/img/pic_publications.png
         </h2>
         <strong class="hf_01">Conference</strong>
         <h2 class="publication_journal">
-            IEEE/CVF International Conference on Computer Vision and Pattern Recognition, 2024
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024
         </h2>
         <div class="publication_buttons">
             <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/SocialCircle">GitHub</a>
