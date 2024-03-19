@@ -7,8 +7,8 @@ cover-img: /subassets/img/pic_team.png
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-02-27 09:54:41
- * @LastEditors: Ziqian Zou
- * @LastEditTime: 2024-02-29 21:43:00
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2024-03-19 17:57:11
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -24,10 +24,10 @@ cover-img: /subassets/img/pic_team.png
 
 <div class="team_table">
     <div>
-        <img src='/subassets/img/team/beihaoxia.png'>
+        <img src='/subassets/img/team/beihaoxia.png'  height=200px>
     </div>
     <div>
-        <img src='/subassets/img/team/conghaowong.png'>
+        <img src='/subassets/img/team/conghaowong.png'  height=200px>
     </div>
     
     <div>
@@ -61,7 +61,7 @@ cover-img: /subassets/img/pic_team.png
 <br><br>
 <div class="team_table">
     <div>
-        <img src='/subassets/img/team/beihaoxia.png'>
+        <img src='/subassets/img/team/beihaoxia.png'  height=200px>
     </div>
     <div>
        
