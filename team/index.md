@@ -61,7 +61,7 @@ cover-img: /subassets/img/pic_team.png
 <br><br>
 <div class="team_table">
     <div>
-        <img src='/subassets/img/team/ziqianzou.png'  height=200px>
+        <img src='/subassets/img/team/zzq.jpg'  height=200px>
     </div>
     <div>
        
@@ -70,7 +70,7 @@ cover-img: /subassets/img/pic_team.png
     <div>
         <h3>Ziqian Zou</h3>
         <p>
-            Ph. D Student <br/>
+            Master's Student <br/>
             Huazhong University of Science and Technology
         </p>
 
