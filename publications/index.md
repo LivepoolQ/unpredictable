@@ -7,13 +7,38 @@ cover-img: /subassets/img/pic_publications.png
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-03-07 17:55:05
+ * @LastEditTime: 2024-09-29 10:53:23
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
 <link rel="stylesheet" href="/subassets/css/publication_box.css">
+
+## 2024
+
+<div class="publication_box">
+    <div class="publication_info_box">
+        <h1 class="publication_title">
+            SocialCircle+: Learning the Angle-based Conditioned Interaction Representation for Pedestrian Trajectory Prediction
+        </h1>
+        <h2 class="publication_author">
+            C. Wong, B. Xia, Z. Zou, X. You.
+        </h2>
+        <strong class="hf_03">In progress</strong>
+        <h2 class="publication_journal">
+            arXiv preprint arXiv:2409.14984, 2024.
+        </h2>
+        <div class="publication_buttons">
+            <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/SocialCirclePlus">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="https://arxiv.org/abs/2409.14984">Paper</a>
+            <a class="btn btn-colorful btn-lg" href="https://cocoon2wong.github.io/SocialCirclePlus">Homepage</a>
+        </div>
+    </div>
+    <div class="publication_picture">
+        <img src="/subassets/img/publications/2024_socialcircleplus.png">
+    </div>
+</div>
 
 ## 2023
 

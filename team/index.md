@@ -7,8 +7,8 @@ cover-img: /subassets/img/pic_team.png
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-02-27 09:54:41
- * @LastEditors: Beihao Xia
- * @LastEditTime: 2024-04-01 11:12:35
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2024-09-29 10:55:07
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -33,7 +33,7 @@ cover-img: /subassets/img/pic_team.png
     <div>
         <h3>Beihao Xia</h3>
         <p>
-            Ph. D Student <br/>
+            Ph. D <br/>
             Huazhong University of Science and Technology
         </p>
         
