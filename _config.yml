@@ -22,12 +22,12 @@ author: Copyright ©️ Team Unpredictable
 navbar-links:
   HOME: "/index"
   TEAM: "/team/index"
-  PUBLICATIONS: "publications/index"
+  PUBLICATIONS: "/publications/index"
   NEWS: "/posts/index"
-  GitHub:
-    - Beihao Xia: "https://github.com/northocean"
-    - Conghao Wong: "https://github.com/cocoon2wong"
-    - Ziqian Zou: "https://github.com/LivepoolQ"
+  # GitHub:
+  #   - Beihao Xia: "https://github.com/northocean"
+  #   - Conghao Wong: "https://github.com/cocoon2wong"
+  #   - Ziqian Zou: "https://github.com/LivepoolQ"
 
 ################
 # --- Logo --- #

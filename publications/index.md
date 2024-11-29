@@ -7,7 +7,7 @@ cover-img: /subassets/img/pic_publications.png
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-09-29 10:53:23
+ * @LastEditTime: 2024-11-29 14:44:10
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -16,6 +16,29 @@ cover-img: /subassets/img/pic_publications.png
 <link rel="stylesheet" href="/subassets/css/publication_box.css">
 
 ## 2024
+
+<div class="publication_box">
+    <div class="publication_info_box">
+        <h1 class="publication_title">
+            Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations
+        </h1>
+        <h2 class="publication_author">
+            C. Wong, Z. Zou, B. Xia, X. You.
+        </h2>
+        <strong class="hf_03">In progress</strong>
+        <!-- <h2 class="publication_journal">
+            arXiv preprint arXiv:2409.14984, 2024.
+        </h2> -->
+        <div class="publication_buttons">
+            <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/Re">GitHub</a>
+            <!-- <a class="btn btn-colorful btn-lg" href="https://arxiv.org/abs/2409.14984">Paper</a> -->
+            <a class="btn btn-colorful btn-lg" href="https://cocoon2wong.github.io/Re">Homepage</a>
+        </div>
+    </div>
+    <div class="publication_picture">
+        <img src="/subassets/img/publications/2024_re.png">
+    </div>
+</div>
 
 <div class="publication_box">
     <div class="publication_info_box">
