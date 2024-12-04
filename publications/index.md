@@ -7,7 +7,7 @@ cover-img: /subassets/img/pic_publications.png
  * @Author: Conghao Wong
  * @Date: 2023-03-03 16:04:54
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-11-29 14:44:10
+ * @LastEditTime: 2024-12-04 16:29:04
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -26,12 +26,12 @@ cover-img: /subassets/img/pic_publications.png
             C. Wong, Z. Zou, B. Xia, X. You.
         </h2>
         <strong class="hf_03">In progress</strong>
-        <!-- <h2 class="publication_journal">
-            arXiv preprint arXiv:2409.14984, 2024.
-        </h2> -->
+        <h2 class="publication_journal">
+            arXiv preprint arXiv:2412.02447, 2024.
+        </h2>
         <div class="publication_buttons">
             <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong/Re">GitHub</a>
-            <!-- <a class="btn btn-colorful btn-lg" href="https://arxiv.org/abs/2409.14984">Paper</a> -->
+            <a class="btn btn-colorful btn-lg" href="https://arxiv.org/abs/2412.02447">Paper</a>
             <a class="btn btn-colorful btn-lg" href="https://cocoon2wong.github.io/Re">Homepage</a>
         </div>
     </div>
