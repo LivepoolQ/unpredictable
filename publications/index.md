@@ -20,6 +20,29 @@ cover-img: /subassets/img/pic_publications.png
 <div class="publication_box">
     <div class="publication_info_box">
         <h1 class="publication_title">
+            Who Walks With You Matters: Perceiving Social Interactions with Groups for Pedestrian Trajectory Prediction
+        </h1>
+        <h2 class="publication_author">
+            Z. Zou, C. Wong, B. Xia, Q. Peng, X. You.
+        </h2>
+        <strong class="hf_03">In progress</strong>
+        <h2 class="publication_journal">
+            arXiv preprint arXiv:2412.02395, 2024.
+        </h2>
+        <div class="publication_buttons">
+            <a class="btn btn-colorful btn-lg" href="https://github.com/livepoolq/groupconception">GitHub</a>
+            <a class="btn btn-colorful btn-lg" href="http://arxiv.org/abs/2412.02395">Paper</a>
+            <a class="btn btn-colorful btn-lg" href="https://cocoon2wong.github.io/GrouPConCeption/">Homepage</a>
+        </div>
+    </div>
+    <div class="publication_picture">
+        <img src="/subassets/img/publications/2024_group.png">
+    </div>
+</div>
+
+<div class="publication_box">
+    <div class="publication_info_box">
+        <h1 class="publication_title">
             Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations
         </h1>
         <h2 class="publication_author">
