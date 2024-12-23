@@ -6,7 +6,7 @@ layout: null
  * @Author: Conghao Wong
  * @Date: 2023-10-12 18:43:02
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2023-10-13 08:58:59
+ * @LastEditTime: 2024-12-23 17:38:54
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -16,7 +16,7 @@ layout: null
     padding: 10px;
     margin-top: 15px;
     border: 1px solid #c4c6c7a0;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: all 0.2s;
     display: flex;
 }
