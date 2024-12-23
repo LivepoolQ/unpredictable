@@ -36,8 +36,9 @@ jobs:
 
       - name: Delete softlink files
         run: |
-          rm ./_layouts
+          rm ./_data
           rm ./_includes
+          rm ./_layouts
           rm ./assets
 
       - name: Clone the newest templete and copy files
@@ -46,8 +47,9 @@ jobs:
           cd Project-Zero-Divided
           git checkout Unpredictable
           cd ..
-          cp -r ./Project-Zero-Divided/_layouts ./
+          cp -r ./Project-Zero-Divided/_data ./
           cp -r ./Project-Zero-Divided/_includes ./
+          cp -r ./Project-Zero-Divided/_layouts ./
           cp -r ./Project-Zero-Divided/assets ./
           
       - name: Build the site in the jekyll/builder container
@@ -57,6 +59,7 @@ jobs:
           destination: ./_site
           future: false
           verbose: true
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1

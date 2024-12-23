@@ -1,6 +1,6 @@
 {
     "files.exclude": {
-        "**/_data": true,
+        // "**/_data": true,
         "**/_site": true,
         // "**/_includes": true,
         // "**/_layouts": true,
