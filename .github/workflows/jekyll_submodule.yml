@@ -46,9 +46,9 @@ jobs:
           cd Project-Zero-Divided
           git checkout Unpredictable
           cd ..
-          cp -r ./Project-Zero-Divided/_layouts
-          cp -r ./Project-Zero-Divided/_includes
-          cp -r ./Project-Zero-Divided/assets
+          cp -r ./Project-Zero-Divided/_layouts ./
+          cp -r ./Project-Zero-Divided/_includes ./
+          cp -r ./Project-Zero-Divided/assets ./
           
       - name: Build the site in the jekyll/builder container
         uses: actions/jekyll-build-pages@v1
