@@ -1,4 +1,10 @@
-[
+[   
+    {
+        "display_name": "GrouPConCeption",
+        "desc": "Codes of our paper `GrouPConCeption` (under review)",
+        "user": "LivepoolQ",
+        "repo_name": "GrouPConCeption"
+    },
     {
         "display_name": "Resonance",
         "desc": "Codes of our paper `Resonance` (under review)",

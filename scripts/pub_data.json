@@ -1,4 +1,15 @@
-[
+[   
+    {
+        "title": "Who Walks With You Matters: Perceiving Social Interactions with Groups for Pedestrian Trajectory Prediction",
+        "authors": "Z. Zou, C. Wong, B. Xia, Q. Peng, X. You.",
+        "status": "I",
+        "journal": "arXiv preprint arXiv:2412.02395, 2024.",
+        "github": "https://github.com/LivepoolQ/GrouPConCeption",
+        "arxiv": "https://arxiv.org/abs/2412.02395",
+        "homepage": "https://cocoon2wong.github.io/GrouPConCeption",
+        "picture": "2024_group.png",
+        "year": 2024
+    },
     {
         "title": "Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations",
         "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
