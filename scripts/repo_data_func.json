@@ -1,0 +1,21 @@
+[
+    {
+        "display_name": "Project-Qpid",
+        "desc": "The training 'engine' of our trajectory prediction models.",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Qpid"
+    },
+    {
+        "display_name": "Project-Luna",
+        "desc": "Our dataset-processing repo.",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Luna",
+        "homepage": "cocoon2wong.github.io/Project-Luna"
+    },
+    {
+        "display_name": "Project-Solitaire",
+        "desc": "Codes to run visualizations/toy examples.",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Solitaire"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations",
+        "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
+        "status": "I",
+        "journal": "arXiv preprint arXiv:2412.02447, 2024.",
+        "github": "https://github.com/cocoon2wong/Re",
+        "arxiv": "https://arxiv.org/abs/2412.02447",
+        "homepage": "https://cocoon2wong.github.io/Re",
+        "picture": "2024_re.png",
+        "year": 2024
+    },
+    {
+        "title": "SocialCircle+: Learning the Angle-based Conditioned Interaction Representation for Pedestrian Trajectory Prediction",
+        "authors": "C. Wong, B. Xia, Z. Zou, X. You.",
+        "status": "I",
+        "journal": "arXiv preprint arXiv:2409.14984, 2024.",
+        "github": "https://github.com/cocoon2wong/SocialCirclePlus",
+        "arxiv": "https://arxiv.org/abs/2409.14984",
+        "homepage": "https://cocoon2wong.github.io/SocialCirclePlus",
+        "picture": "2024_socialcircleplus.png",
+        "year": 2024
+    },
+    {
+        "title": "SocialCircle: Learning the Angle-based Social Interaction Representation for Pedestrian Trajectory Prediction",
+        "authors": "C. Wong, B. Xia, Z. Zou, Y. Wang, X. You.",
+        "status": "C",
+        "journal": "IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024",
+        "github": "https://github.com/cocoon2wong/SocialCircle",
+        "arxiv": "https://arxiv.org/abs/2310.05370",
+        "homepage": "https://cocoon2wong.github.io/SocialCircle",
+        "picture": "2023_socialcircle.png",
+        "year": 2023
+    },
+    {
+        "title": "Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums",
+        "authors": "B. Xia, C. Wong, D. Xu, Q. Peng, and X. You.",
+        "status": "I",
+        "journal": "arXiv preprint arXiv:2304.05106, 2023",
+        "github": "https://github.com/cocoon2wong/E-Vertical",
+        "arxiv": "https://arxiv.org/abs/2304.05106",
+        "homepage": "https://cocoon2wong.github.io/E-Vertical",
+        "picture": "2023_ev.png",
+        "year": 2023
+    },
+    {
+        "title": "View Vertically: A Hierarchical Network for Trajectory Prediction via Fourier Spectrums",
+        "authors": "C. Wong, B. Xia, Z. Hong, Q. Peng, W. Yuan, Q. Cao, Y. Yang, X. You",
+        "status": "C",
+        "journal": "European Conference on Computer Vision 2022",
+        "github": "https://github.com/cocoon2wong/Vertical",
+        "arxiv": "https://arxiv.org/abs/2110.07288",
+        "homepage": "https://cocoon2wong.github.io/Vertical",
+        "picture": "2022_v.png",
+        "year": 2022
+    },
+    {
+        "title": "CSCNet: Contextual Semantic Consistency Network for Trajectory Prediction in Crowded Spaces",
+        "authors": "B. Xia, C. Wong, Q. Peng, W. Yuan, X. You",
+        "status": "J",
+        "journal": "Pattern Recognition, page 108552, 2022",
+        "arxiv": "https://arxiv.org/abs/2202.08506",
+        "picture": "2022_csc.png",
+        "year": 2022
+    },
+    {
+        "title": "MSN: Multi-Style Network for Trajectory Prediction",
+        "authors": "C. Wong, B. Xia, Q. Peng, W. Yuan, X. You",
+        "status": "J",
+        "journal": "IEEE Transactions on Intelligent Transportation Systems, 2023",
+        "github": "https://github.com/northocean/msn",
+        "arxiv": "https://arxiv.org/abs/2107.00932",
+        "homepage": "https://northocean.github.io/MSN",
+        "picture": "2021_msn.png",
+        "year": 2021
+    }
+]

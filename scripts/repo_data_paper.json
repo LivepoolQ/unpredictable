@@ -1,0 +1,38 @@
+[
+    {
+        "display_name": "Resonance",
+        "desc": "Codes of our paper `Resonance` (under review)",
+        "user": "cocoon2wong",
+        "repo_name": "Re"
+    },
+    {
+        "display_name": "SocialCircle+",
+        "desc": "Codes of our paper `SocialCircle+` (under review)",
+        "user": "cocoon2wong",
+        "repo_name": "SocialCirclePlus"
+    },
+    {
+        "display_name": "SocialCircle",
+        "desc": "Codes of our paper `SocialCircle` (CVPR2024)",
+        "user": "cocoon2wong",
+        "repo_name": "SocialCircle"
+    },
+    {
+        "display_name": "E-Vertical",
+        "desc": "Codes of our paper `EV` (under review)",
+        "user": "cocoon2wong",
+        "repo_name": "E-Vertical"
+    },
+    {
+        "display_name": "Vertical",
+        "desc": "Codes of our paper `Vertical` (ECCV2022)",
+        "user": "cocoon2wong",
+        "repo_name": "Vertical"
+    },
+    {
+        "display_name": "MSN",
+        "desc": "Codes of our paper `MSN` (T-ITS2023)",
+        "user": "northocean",
+        "repo_name": "msn"
+    }
+]
