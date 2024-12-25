@@ -6,7 +6,7 @@ layout: null
  * @Author: Conghao Wong
  * @Date: 2023-10-12 18:43:02
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-12-23 17:38:54
+ * @LastEditTime: 2024-12-25 16:56:38
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -34,10 +34,12 @@ layout: null
 .publication_title {
     margin-top: 12px;
     font-size: 16pt;
+    font-weight: 800;
+    line-height: 1.1;
 }
 
 .publication_author {
-    font-size: 12pt;
+    /* font-size: 12pt; */
     font-weight: normal;
     font-style: italic;
     margin-top: 10px;
@@ -45,7 +47,7 @@ layout: null
 }
 
 .publication_journal {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 12pt;
     font-weight: normal;
 }

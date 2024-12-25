@@ -2,7 +2,7 @@
 @Author: Conghao Wong
 @Date: 2024-12-24 15:38:03
 @LastEditors: Conghao Wong
-@LastEditTime: 2024-12-24 16:03:31
+@LastEditTime: 2024-12-25 17:00:15
 @Github: https://cocoon2wong.github.io
 @Copyright 2024 Conghao Wong, All Rights Reserved.
 """
@@ -22,11 +22,11 @@ def load_one_paper(title, authors, status, journal, arxiv, template,
                    github=None, homepage=None, picture=None, **kwargs):
     
     if status == 'I':
-        status = '<strong class="hf_03">In progress</strong>'
+        status = '<span class="badge bg-warning text-dark">In progress</span>'
     elif status == 'C':
-        status = '<strong class="hf_01">Conference</strong>'
+        status = '<span class="badge bg-primary">Conference</span>'
     elif status == 'J':
-        status = '<strong class="hf_02">Journal</strong>'
+        status = '<span class="badge bg-success">Journal</span>'
     else:
         status = ''
 

@@ -45,7 +45,7 @@
     },
     {
         "title": "Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums",
-        "authors": "B. Xia, C. Wong, D. Xu, Q. Peng, and X. You.",
+        "authors": "B. Xia, C. Wong, D. Xu, Q. Peng, X. You.",
         "status": "I",
         "journal": "arXiv preprint arXiv:2304.05106, 2023",
         "github": "https://github.com/cocoon2wong/E-Vertical",
