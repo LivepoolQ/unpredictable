@@ -10,7 +10,14 @@
         "desc": "Our dataset-processing repo.",
         "user": "cocoon2wong",
         "repo_name": "Project-Luna",
-        "homepage": "cocoon2wong.github.io/Project-Luna"
+        "homepage": "https://cocoon2wong.github.io/Project-Luna"
+    },
+    {
+        "display_name": "Project-Monandaeg",
+        "desc": "Repo of our pre-trained model weights.",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Monandaeg",
+        "homepage": "https://cocoon2wong.github.io/Project-Monandaeg"
     },
     {
         "display_name": "Project-Solitaire",
