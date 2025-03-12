@@ -308,7 +308,7 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  # - jekyll-gfm-admonitions
+  - jekyll-gfm-admonitions
   - jekyll-optional-front-matter
 
 # Beautiful Jekyll / Dean Attali
