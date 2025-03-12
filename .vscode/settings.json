@@ -12,16 +12,16 @@
 
         "**/docs": true,
 
-        "**/.gitattributes": true,
-        "**/.gitignore": true,
-        "**/Gemfile": true,
-        "**/*.gemspec": true,
+        // "**/.gitattributes": true,
+        // "**/.gitignore": true,
+        // "**/Gemfile": true,
+        // "**/*.gemspec": true,
 
-        "**/feed.xml": true,
-        "**/staticman.yml": true,
+        // "**/feed.xml": true,
+        // "**/staticman.yml": true,
 
-        "**/tags.html": true,
-        "**/404.html": true,
+        // "**/tags.html": true,
+        // "**/404.html": true,
 
     },
     "grammarly.files.include": [
