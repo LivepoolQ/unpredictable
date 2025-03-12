@@ -52,10 +52,10 @@ jobs:
           cp -r ./Project-Zero-Divided/_layouts ./
           cp -r ./Project-Zero-Divided/assets ./
 
-      - name: Fetch the new readme
-        run: |
-          pip install requests
-          python ./fetch_readme.py
+      # - name: Fetch the new readme
+      #   run: |
+      #     pip install requests
+      #     python ./fetch_readme.py
 
       # Build job 
       - name: Setup Ruby
