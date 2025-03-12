@@ -2,7 +2,7 @@
 @Author: Conghao Wong
 @Date: 2024-12-24 11:41:22
 @LastEditors: Conghao Wong
-@LastEditTime: 2024-12-24 15:22:49
+@LastEditTime: 2025-03-12 17:16:51
 @Github: https://cocoon2wong.github.io
 @Copyright 2024 Conghao Wong, All Rights Reserved.
 """
@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.abspath('.'))
 DATA_FILE_PAPER = './scripts/repo_data_paper.json'
 DATA_FILE_FUNC = './scripts/repo_data_func.json'
 TEMPLATE_FILE = './scripts/repo_template.html'
-TARGET_FILE = './repos/index.md'
+TARGET_FILE = './repos/index.html'
 
 
 def load_one_repo(display_name: str, desc: str, user: str,

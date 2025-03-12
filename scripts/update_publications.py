@@ -2,7 +2,7 @@
 @Author: Conghao Wong
 @Date: 2024-12-24 15:38:03
 @LastEditors: Conghao Wong
-@LastEditTime: 2024-12-25 17:00:15
+@LastEditTime: 2025-03-12 17:06:55
 @Github: https://cocoon2wong.github.io
 @Copyright 2024 Conghao Wong, All Rights Reserved.
 """
@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 DATA_FILE_PAPER = './scripts/pub_data.json'
 TEMPLATE_FILE = './scripts/pub_template.html'
-TARGET_FILE = './publications/index.md'
+TARGET_FILE = './publications/index.html'
 
 
 def load_one_paper(title, authors, status, journal, arxiv, template,
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
     new_line = ''
     for key, value in papers.items():
-        new_line += f'## {key}\n'
+        new_line += f'<h2>{key}</h2>\n'
         new_line += value
 
     with open(TARGET_FILE, 'r') as f:
