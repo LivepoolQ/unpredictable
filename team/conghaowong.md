@@ -1,37 +1,34 @@
 ---
 layout: page
 title: Team
-subtitle: Conghao Wong
 cover-img: /subassets/img/team/conghaowongback.JPG
 ---
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:44:52
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-03-19 18:01:48
+ * @LastEditTime: 2025-03-12 20:34:35
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
-### Information
-
-<div class="cv_image">
+<div style="display: flex;">
+  <div style="flex-grow: 1;">
+    <p>
+      <h2>Conghao Wong</h2>
+      Ph. D Student <br/>
+      Huazhong University of Science and Technology
+    </p>
     <div>
-        <p></p>
-        <img src="/subassets/img/team/conghaowong.png" height=200px>
+      <a class="btn btn-colorful btn-lg" href="mailto:conghaowong@icloud.com">✉️</a>
+      <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong">GitHub</a>
     </div>
-    <div>
-        <p>
-            <h2>Conghao Wong</h2>
-            Ph. D Student <br/>
-            Huazhong University of Science and Technology
-        </p>
-        <div>
-            <a class="btn btn-colorful btn-lg" href="mailto:conghaowong@icloud.com">✉️</a>
-            <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong">GitHub</a>
-        </div>
-    </div>
+  </div>
+  <div>
+    <p></p>
+    <img src="/subassets/img/team/conghaowong.png" height=200px>
+  </div>
 </div>
 
 Conghao Wong *(also Conghao Wang or 王聪皓)* is currently a PhD Student in Huazhong University of Science and Technology, Wuhan, Hubei, China.

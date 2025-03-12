@@ -7,30 +7,29 @@ cover-img: /subassets/img/team/beihaoxiaback.jpg
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:45:05
- * @LastEditors: Beihao Xia
- * @LastEditTime: 2024-04-01 11:13:05
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2025-03-12 20:36:10
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
-### Information
-
-<div class="cv_image">
+<div style="display: flex;">
+  <div style="flex-grow: 1;">
+    <p>
+      <h2>Beihao Xia</h2>
+      Ph. D Student<br/>
+      Huazhong University of Science and Technology
+    </p>
     <div>
-        <p></p>
-        <img src="/subassets/img/team/beihaoxia.jpg" height=200px>
+      <a class="btn btn-colorful btn-lg" href="mailto:xbh_hust@hust.edu.cn">✉️</a>
+      <a class="btn btn-colorful btn-lg" href="https://github.com/northocean">GitHub</a>
     </div>
-    <div>
-        <p>
-            Ph. D Student<br/>
-            Huazhong University of Science and Technology
-        </p>
-        <div>
-            <a class="btn btn-colorful btn-lg" href="mailto:xbh_hust@hust.edu.cn">✉️</a>
-            <a class="btn btn-colorful btn-lg" href="https://github.com/northocean">GitHub</a>
-        </div>
-    </div>
+  </div>
+  <div>
+    <p></p>
+    <img src="/subassets/img/team/beihaoxia.jpg" height=200px>
+  </div>
 </div>
 
 Beihao Xia is currently a PhD Student in Huazhong University of Science and Technology, Wuhan, Hubei, China.
