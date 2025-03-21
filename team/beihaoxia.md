@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team
+breadcrumbs: true
 subtitle: Beihao Xia
 cover-img: /subassets/img/team/beihaoxiaback.jpg
 ---

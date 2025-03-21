@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team
+breadcrumbs: true
 subtitle: Ziqian Zou
 cover-img: /subassets/img/team/ziqianzouback.jpg
 ---
@@ -8,7 +9,7 @@ cover-img: /subassets/img/team/ziqianzouback.jpg
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:44:52
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2025-03-12 20:38:18
+ * @LastEditTime: 2025-03-21 16:32:02
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
