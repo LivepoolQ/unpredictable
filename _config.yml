@@ -29,7 +29,7 @@ navbar-links:
   TEAM: "/team/index"
   PUBLICATIONS: "/publications/index"
   OPEN SOURCES: "/repos/index"
-  NEWS: "/posts/index"
+  POSTS: "/posts/index"
 
 ################
 # --- Logo --- #
@@ -274,11 +274,11 @@ paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: "_posts"
     values:
+      toc: true
+      permalink: /posts/:year:month:day:title/
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
