@@ -7,8 +7,8 @@ cover-img: /subassets/img/team/beihaoxiaback.jpg
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:45:05
- * @LastEditors: Conghao Wong
- * @LastEditTime: 2025-03-12 20:36:10
+ * @LastEditors: Beihao Xia
+ * @LastEditTime: 2025-03-21 10:41:21
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -37,11 +37,23 @@ His research interest includes image processing and computer vision.
 
 ### Education
 
-**2018 - Present:** PhD Student, Huazhong University of Science and Technology  
-**2015 - 2018:** MS Student, Huazhong University of Science and Technology  
+**2018 - Present:** PhD Student, Huazhong University of Science and Technology
+**2015 - 2018:** MS Student, Huazhong University of Science and Technology
 **2011 - 2015:** Undergrad Student, Hunan University
 
 ### Publications
+
+- C. Wong, Z. Zou, B. Xia, and X. You.
+  ***Resonance: Learning to predict social-aware pedestrian trajectories as co-vibrations.***
+  arXiv preprint arXiv:2412.02447, 2024.
+
+- Z. Zou, C. Wong, B. Xia, Q. Peng, and X. You.
+  ***Who walks with you matters: Perceiving social interactions with groups for pedestrian trajectory prediction.***
+  arXiv preprint arXiv:2412.02395, 2024.
+
+- C. Wong, B. Xia, Z. Zou, and X. You.
+  ***Socialcircle+: Learning the angle-based conditioned interaction representation for pedestrian trajectory prediction.***
+  arXiv preprint arXiv:2409.14984, 2024.
 
 - C. Wong, B. Xia, Z. Zou, Y. Wang, and X. You.
   ***SocialCircle: Learning the Angle-based Social Interaction Representation for Pedestrian Trajectory Prediction.***
