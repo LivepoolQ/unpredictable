@@ -9,7 +9,7 @@ cover-img: /subassets/img/team/conghaowongback.JPG
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:44:52
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2025-03-21 16:31:22
+ * @LastEditTime: 2025-03-25 12:53:54
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -25,6 +25,7 @@ cover-img: /subassets/img/team/conghaowongback.JPG
     <div>
       <a class="btn btn-colorful btn-lg" href="mailto:conghaowong@icloud.com">✉️</a>
       <a class="btn btn-colorful btn-lg" href="https://github.com/cocoon2wong">GitHub</a>
+      <a class="btn btn-colorful btn-lg" href="https://conghaowong.com">Home page</a>
     </div>
   </div>
   <div>
