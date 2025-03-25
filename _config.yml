@@ -304,6 +304,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - update.sh
 
 plugins:
   - jekyll-paginate
