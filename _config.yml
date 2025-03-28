@@ -26,10 +26,10 @@ author: Copyright ©️ Team Unpredictable
 
 navbar-links:
   HOME: "/index"
-  TEAM: "/team/index"
-  PUBLICATIONS: "/publications/index"
-  OPEN SOURCES: "/repos/index"
-  POSTS: "/posts/index"
+  TEAM: "/team/"
+  PUBLICATIONS: "/publications/"
+  OPEN SOURCES: "/repos/"
+  POSTS: "/posts/"
 
 ################
 # --- Logo --- #
