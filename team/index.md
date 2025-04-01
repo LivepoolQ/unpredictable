@@ -7,15 +7,16 @@ cover-img: /subassets/img/pic_team.png
 <!--
  * @Author: Conghao Wong
  * @Date: 2023-02-27 09:54:41
- * @LastEditors: Beihao Xia
- * @LastEditTime: 2025-03-21 10:40:48
+ * @LastEditors: Conghao Wong
+ * @LastEditTime: 2025-04-01 15:16:30
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
 -->
 
-<div style="display: flex; gap: 30px;">
-  <div>
+<link rel="stylesheet" href="/subassets/css/team_box.css">
+<div class="team-container">
+  <div class="team-card">
     <img src='/subassets/img/team/beihaoxia.jpg'  height=200px>
     <h3>Beihao Xia</h3>
     <p>
@@ -29,7 +30,7 @@ cover-img: /subassets/img/pic_team.png
     </div>
   </div>
 
-  <div>
+  <div class="team-card">
     <img src='/subassets/img/team/conghaowong.png'  height=200px>
     <h3>Conghao Wong</h3>
       <p>
@@ -43,7 +44,7 @@ cover-img: /subassets/img/pic_team.png
       </div>
   </div>
 
-  <div>
+  <div class="team-card">
     <img src='/subassets/img/team/zzq.jpg'  height=200px>
     <h3>Ziqian Zou</h3>
     <p>
