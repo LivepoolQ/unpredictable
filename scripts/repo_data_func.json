@@ -3,7 +3,8 @@
         "display_name": "Project-Qpid",
         "desc": "The training 'engine' of our trajectory prediction models.",
         "user": "cocoon2wong",
-        "repo_name": "Project-Qpid"
+        "repo_name": "Project-Qpid",
+        "homepage": "https://cocoon2wong.github.io/Project-Qpid"
     },
     {
         "display_name": "Project-Luna",
