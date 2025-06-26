@@ -22,11 +22,11 @@ def load_one_paper(title, authors, status, journal, arxiv, template,
                    github=None, homepage=None, picture=None, **kwargs):
     
     if status == 'I':
-        status = '<span class="badge bg-warning text-dark">In progress</span>'
+        status = '<span class="badge bg-warning text-dark badge-custom">In progress</span>'
     elif status == 'C':
-        status = '<span class="badge bg-primary">Conference</span>'
+        status = '<span class="badge bg-primary badge-custom">Conference</span>'
     elif status == 'J':
-        status = '<span class="badge bg-success">Journal</span>'
+        status = '<span class="badge bg-success badge-custom">Journal</span>'
     else:
         status = ''
 

@@ -1,5 +1,16 @@
 [   
     {
+        "title": "<span class=\"badge bg-secondary badge-custom\">New</span> Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations",
+        "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
+        "status": "C",
+        "journal": "IEEE/CVF International Conference on Computer Vision 2025",
+        "github": "https://github.com/cocoon2wong/Re",
+        "arxiv": "https://arxiv.org/abs/2412.02447",
+        "homepage": "https://cocoon2wong.github.io/Re",
+        "picture": "2024_re.png",
+        "year": 2025
+    },
+    {
         "title": "Who Walks With You Matters: Perceiving Social Interactions with Groups for Pedestrian Trajectory Prediction",
         "authors": "Z. Zou, C. Wong, B. Xia, Q. Peng, X. You.",
         "status": "I",
@@ -8,17 +19,6 @@
         "arxiv": "https://arxiv.org/abs/2412.02395",
         "homepage": "https://cocoon2wong.github.io/GrouPConCeption",
         "picture": "2024_group.png",
-        "year": 2024
-    },
-    {
-        "title": "Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations",
-        "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
-        "status": "I",
-        "journal": "arXiv preprint arXiv:2412.02447, 2024.",
-        "github": "https://github.com/cocoon2wong/Re",
-        "arxiv": "https://arxiv.org/abs/2412.02447",
-        "homepage": "https://cocoon2wong.github.io/Re",
-        "picture": "2024_re.png",
         "year": 2024
     },
     {

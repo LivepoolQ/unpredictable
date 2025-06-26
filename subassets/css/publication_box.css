@@ -6,7 +6,7 @@ layout: null
  * @Author: Conghao Wong
  * @Date: 2023-10-12 18:43:02
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2025-03-31 19:55:34
+ * @LastEditTime: 2025-06-26 09:44:49
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -76,4 +76,8 @@ layout: null
 
 .dark-mode .publication_box:hover {
     background-color: #3d3d3d;
+}
+
+.badge-custom {
+    border-radius: 1.0em;
 }
