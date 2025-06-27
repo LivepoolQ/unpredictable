@@ -47,7 +47,7 @@ His research interest includes computer vision and pattern recognition, and he i
 
 - C. Wong, Z. Zou, B. Xia, and X. You.
   ***Resonance: Learning to predict social-aware pedestrian trajectories as co-vibrations.***
-  arXiv preprint arXiv:2412.02447, 2024.
+  In Proceedings of the IEEE/CVF International Conference on Computer Vision, 2025.
 
 - Z. Zou, C. Wong, B. Xia, Q. Peng, and X. You.
   ***Who walks with you matters: Perceiving social interactions with groups for pedestrian trajectory prediction.***
