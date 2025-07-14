@@ -9,7 +9,7 @@ cover-img: /subassets/img/team/conghaowongback.JPG
  * @Author: Conghao Wong
  * @Date: 2023-03-03 17:44:52
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2025-03-25 12:53:54
+ * @LastEditTime: 2025-07-14 12:01:08
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -45,6 +45,10 @@ His research interest includes computer vision and pattern recognition, and he i
 
 ### Publications
 
+- B. Xia, C. Wong, Q. Peng, and X. You.
+  ***Another vertical view: A hierarchical network for heterogeneous trajectory prediction via spectrums.***
+  IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
+
 - C. Wong, Z. Zou, B. Xia, and X. You.
   ***Resonance: Learning to predict social-aware pedestrian trajectories as co-vibrations.***
   In Proceedings of the IEEE/CVF International Conference on Computer Vision, 2025.
@@ -60,10 +64,6 @@ His research interest includes computer vision and pattern recognition, and he i
 - C. Wong, B. Xia, Z. Zou, Y. Wang, and X. You.
   ***SocialCircle: Learning the Angle-based Social Interaction Representation for Pedestrian Trajectory Prediction.***
   In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024.
-
-- C. Wong, B. Xia, Q. Peng, and X. You.
-  ***Another vertical view: A hierarchical network for heterogeneous trajectory prediction via spectrums.***
-  arXiv preprint arXiv:2304.05106, 2023.
 
 - C. Wong, B. Xia, Q. Peng, W. Yuan, and X. You.
   ***Msn: multi-style network for trajectory prediction.***

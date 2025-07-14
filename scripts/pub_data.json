@@ -1,5 +1,16 @@
 [   
     {
+        "title": "<span class=\"badge bg-secondary badge-custom\">New</span> Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums",
+        "authors": "B. Xia, C. Wong, D. Xu, Q. Peng, X. You.",
+        "status": "I",
+        "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025",
+        "github": "https://github.com/cocoon2wong/E-Vertical",
+        "arxiv": "https://arxiv.org/abs/2304.05106",
+        "homepage": "https://cocoon2wong.github.io/E-Vertical",
+        "picture": "2023_ev.png",
+        "year": 2025
+    },
+    {
         "title": "<span class=\"badge bg-secondary badge-custom\">New</span> Resonance: Learning to Predict Social-Aware Pedestrian Trajectories as Co-Vibrations",
         "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
         "status": "C",
@@ -41,17 +52,17 @@
         "arxiv": "https://arxiv.org/abs/2310.05370",
         "homepage": "https://cocoon2wong.github.io/SocialCircle",
         "picture": "2023_socialcircle.png",
-        "year": 2023
+        "year": 2024
     },
     {
-        "title": "Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums",
-        "authors": "B. Xia, C. Wong, D. Xu, Q. Peng, X. You.",
-        "status": "I",
-        "journal": "arXiv preprint arXiv:2304.05106, 2023",
-        "github": "https://github.com/cocoon2wong/E-Vertical",
-        "arxiv": "https://arxiv.org/abs/2304.05106",
-        "homepage": "https://cocoon2wong.github.io/E-Vertical",
-        "picture": "2023_ev.png",
+        "title": "MSN: Multi-Style Network for Trajectory Prediction",
+        "authors": "C. Wong, B. Xia, Q. Peng, W. Yuan, X. You",
+        "status": "J",
+        "journal": "IEEE Transactions on Intelligent Transportation Systems, 2023",
+        "github": "https://github.com/northocean/msn",
+        "arxiv": "https://arxiv.org/abs/2107.00932",
+        "homepage": "https://northocean.github.io/MSN",
+        "picture": "2021_msn.png",
         "year": 2023
     },
     {
@@ -73,16 +84,5 @@
         "arxiv": "https://arxiv.org/abs/2202.08506",
         "picture": "2022_csc.png",
         "year": 2022
-    },
-    {
-        "title": "MSN: Multi-Style Network for Trajectory Prediction",
-        "authors": "C. Wong, B. Xia, Q. Peng, W. Yuan, X. You",
-        "status": "J",
-        "journal": "IEEE Transactions on Intelligent Transportation Systems, 2023",
-        "github": "https://github.com/northocean/msn",
-        "arxiv": "https://arxiv.org/abs/2107.00932",
-        "homepage": "https://northocean.github.io/MSN",
-        "picture": "2021_msn.png",
-        "year": 2021
     }
 ]
