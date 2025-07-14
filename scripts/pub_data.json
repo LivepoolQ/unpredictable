@@ -24,13 +24,13 @@
     {
         "title": "Who Walks With You Matters: Perceiving Social Interactions with Groups for Pedestrian Trajectory Prediction",
         "authors": "Z. Zou, C. Wong, B. Xia, Q. Peng, X. You.",
-        "status": "I",
-        "journal": "arXiv preprint arXiv:2412.02395, 2024.",
+        "status": "C",
+        "journal": "IEEE/CVF International Conference on Computer Vision 2025 Workshops.",
         "github": "https://github.com/LivepoolQ/GrouPConCeption",
         "arxiv": "https://arxiv.org/abs/2412.02395",
         "homepage": "https://cocoon2wong.github.io/GrouPConCeption",
         "picture": "2024_group.png",
-        "year": 2024
+        "year": 2025
     },
     {
         "title": "SocialCircle+: Learning the Angle-based Conditioned Interaction Representation for Pedestrian Trajectory Prediction",
