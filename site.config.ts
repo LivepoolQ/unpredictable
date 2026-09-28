@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2026-09-21 17:33:48
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2026-09-23 10:30:52
+ * @LastEditTime: 2026-09-28 21:04:34
  * @Github: https://cocoon2wong.github.io
  * Copyright 2026 Conghao Wong, All Rights Reserved.
  */
@@ -87,58 +87,40 @@ export interface SiteConfig {
   // Section 3: Color Palette & Theming
   // ---------------------------------------------------------------------------
   colors: {
-    // 3.1 Page Backgrounds (Light & Dark)
-    pageBgColor: string;
-    pageBgColorGray: string;
-    pageBgColorDark: string;
-    pageBgColorDarkGray: string;
+    // 4.1 4-Level General Background System Tokens (Optional overrides, defaults in variables.css)
+    level1BgColor?: string;
+    level2BgColor?: string;
+    level3BgColor?: string;
+    level4BgColor?: string;
+    level1BgColorDark?: string;
+    level2BgColorDark?: string;
+    level3BgColorDark?: string;
+    level4BgColorDark?: string;
 
-    // 3.2 Text Colors (Light & Dark)
-    textColor: string;
-    textColorDark: string;
+    // 4.1.1 2-Level Liquid Glass Background Tokens (Optional overrides, defaults in variables.css)
+    level1GlassBgColor?: string;
+    level2GlassBgColor?: string;
+    level1GlassBgColorDark?: string;
+    level2GlassBgColorDark?: string;
 
-    // 3.3 Brand & Interactive Accents
+    // 4.2 4-Level Typography System Tokens (Optional overrides, defaults in variables.css)
+    level1TextColor?: string;
+    level2TextColor?: string;
+    level3TextColor?: string;
+    level4TextColor?: string;
+    level1TextColorDark?: string;
+    level2TextColorDark?: string;
+    level3TextColorDark?: string;
+    level4TextColorDark?: string;
+
+    // 4.3 Brand & Interactive Accents
     themeColor: string;
-    hoverColor: string;
-    linkColor: string;
 
-    // 3.4 Header & Hero Banner
-    headerBgColor: string;
-    headerBgColorDark: string;
-
-    // 3.5 Primary Floating Navbar
+    // 4.5 Primary Floating Navbar
     navbarBgColor: string;
     navbarBgColorDark: string;
     navbarBorderColor: string;
     navbarTextColor: string;
-    navbarFloatActiveBgColor: string;
-    navbarIndicatorGrayLight: string;
-    navbarIndicatorGrayDark: string;
-
-    // 3.6 Secondary Navbar & Liquid Glass Base (TOC, Buttons, Button Groups)
-    secondNavBgColor: string;
-    secondNavBgColorDark: string;
-
-    // 3.7 Capsule Buttons & Segmented Pills
-    buttonNormalBg: string;
-    buttonNormalBgDark: string;
-    buttonNormalText: string;
-    buttonNormalTextDark: string;
-    buttonThemeBg: string;
-    buttonThemeText: string;
-    pillText: string;
-    pillTextDark: string;
-    pillActiveText: string;
-
-    // 3.8 Footer
-    footerBgColor: string;
-    footerBgColorDark: string;
-    footerTextColor: string;
-    footerLinkColor: string;
-    footerHoverColor: string;
-
-    // 3.9 Global Elevation & Shadows
-    pageShadowColor: string;
   };
 }
 
@@ -216,57 +198,13 @@ export const siteConfig: SiteConfig = {
   // Section 3: Color Palette & Theming (Faithful to _config.yml)
   // ---------------------------------------------------------------------------
   colors: {
-    // 3.1 Page Backgrounds (Light & Dark)
-    pageBgColor: "#ffffff",
-    pageBgColorGray: "#f5f5f7",
-    pageBgColorDark: "#1e1e1c",
-    pageBgColorDarkGray: "#1d1d1f",
-
-    // 3.2 Text Colors (Light & Dark)
-    textColor: "#404040",
-    textColorDark: "#ffffff",
-
-    // 3.3 Brand & Interactive Accents
+    // 4.3 Brand & Interactive Accents
     themeColor: "#0085a1",
-    hoverColor: "#0085a1",
-    linkColor: "#008aff",
 
-    // 3.4 Header & Hero Banner
-    headerBgColor: "#ffffff",
-    headerBgColorDark: "#000000",
-
-    // 3.5 Primary Floating Navbar
+    // 4.5 Primary Floating Navbar
     navbarBgColor: "#EAEAEA80",
     navbarBgColorDark: "#14141460",
     navbarBorderColor: "#DDDDDD",
     navbarTextColor: "#404040",
-    navbarFloatActiveBgColor: "#EAEAEA80",
-    navbarIndicatorGrayLight: "#00000015",
-    navbarIndicatorGrayDark: "#ffffff22",
-
-    // 3.6 Secondary Navbar & Liquid Glass Base (TOC, Buttons, Button Groups)
-    secondNavBgColor: "#fafafc",
-    secondNavBgColorDark: "#3d3d3d",
-
-    // 3.7 Capsule Buttons & Segmented Pills
-    buttonNormalBg: "#fcfcfe",
-    buttonNormalBgDark: "#3c3c3c",
-    buttonNormalText: "#3c3c3c",
-    buttonNormalTextDark: "#ffffff",
-    buttonThemeBg: "#0085a1",
-    buttonThemeText: "#ffffff",
-    pillText: "#3c3c3c",
-    pillTextDark: "#ffffff",
-    pillActiveText: "#0085a1",
-
-    // 3.8 Footer
-    footerBgColor: "#f7f7f7",
-    footerBgColorDark: "#1c1c1e",
-    footerTextColor: "#777777",
-    footerLinkColor: "#404040",
-    footerHoverColor: "#0085a1",
-
-    // 3.9 Global Elevation & Shadows
-    pageShadowColor: "#00000060",
   },
 };

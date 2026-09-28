@@ -1,34 +1,20 @@
 ---
+layout: ../../layouts/BaseLayout.astro
 title: Conghao Wong
 coverImg: /assets/img/team/conghaowongback.JPG
+showBreadcrumbs: true
 customCss:
   - /assets/css/team_box.css
 ---
 
-import BaseLayout from "../../layouts/BaseLayout.astro";
 import Pill from "../../components/Pill.astro";
-import SecondNavTitle from "../../components/SecondNavTitle.astro";
-import SecondNavSpacer from "../../components/SecondNavSpacer.astro";
-import SecondNavBreadcrumb from "../../components/SecondNavBreadcrumb.astro";
 
-<BaseLayout
-  title={frontmatter.title}
-  coverImg={frontmatter.coverImg}
-  customCss={frontmatter.customCss}
-  showBreadcrumbs={false}
->
-  <Fragment slot="secondNav">
-    <SecondNavBreadcrumb showCurrentPage={false} />
-    <SecondNavTitle title="Conghao Wong" />
-    <SecondNavSpacer />
-  </Fragment>
+## Conghao Wong
 
-  <div class="team-profile-header">
+<div class="team-profile-header">
   <div class="team-profile-info">
-    <p class="team-profile-affiliation">
-      Ph. D Student <br />
-      Huazhong University of Science and Technology
-    </p>
+    Ph. D Student <br />
+    Huazhong University of Science and Technology
 
     Conghao Wong *(also Conghao Wang or 王聪皓)* is currently a PhD Student in Huazhong University of Science and Technology, Wuhan, Hubei, China.
     His research interest includes computer vision and pattern recognition, and he is now working in the field of pedestrian trajectory prediction.
@@ -47,6 +33,7 @@ import SecondNavBreadcrumb from "../../components/SecondNavBreadcrumb.astro";
     <img src="/assets/img/team/conghaowong.png" alt="Conghao Wong" />
   </div>
 </div>
+
 
 ### Education
 
@@ -156,4 +143,3 @@ I have also served as reviewers for several academic conferences or journals:
 - ...
 
 </details>
-</BaseLayout>
