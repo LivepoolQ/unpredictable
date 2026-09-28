@@ -1,16 +1,5 @@
 [   
     {
-        "title": "Reverberation: Learning the Latencies Before Forecasting Trajectories",
-        "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
-        "status": "J",
-        "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026",
-        "github": "https://github.com/cocoon2wong/Rev",
-        "arxiv": "https://arxiv.org/abs/2511.11164",
-        "homepage": "https://cocoon2wong.github.io/Rev",
-        "picture": "2025_rev.png",
-        "year": 2026
-    },
-    {
         "title": "Encore: Conditioning Trajectory Forecasting via Biased Ego Rehearsals",
         "authors": "C. Wong, Z. Zou, X. You.",
         "status": "I",
@@ -30,6 +19,18 @@
         "arxiv": "",
         "picture": "0000_WIP.png",
         "year": 2026
+    },
+    {
+        "title": "Reverberation: Learning the Latencies Before Forecasting Trajectories",
+        "authors": "C. Wong, Z. Zou, B. Xia, X. You.",
+        "status": "I",
+        "journal": "arXiv preprint arXiv:2511.11164, 2025",
+        "submitted": "Under Review, submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "github": "https://github.com/cocoon2wong/Rev",
+        "arxiv": "https://arxiv.org/abs/2511.11164",
+        "homepage": "https://cocoon2wong.github.io/Rev",
+        "picture": "2025_rev.png",
+        "year": 2025
     },
     {
         "title": "Another Vertical View: A Hierarchical Network for Heterogeneous Trajectory Prediction via Spectrums",
