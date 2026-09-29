@@ -33,7 +33,29 @@ const footnotes = [
     style={`--bg: url('${withBase("/assets/img/home0.jpeg")}');`}
   >
     <div class="hero-scene-inner">
-      <h1>Project<br>Unpredictable</h1>
+      <!-- 三层结构核心容器 -->
+      <div class="hero-composition">
+        <!-- Layer 0: 动态 WebM 视频（置于底层） -->
+        <video
+          class="hero-layer-video"
+          src={withBase("/assets/video/IMG_1550.webm")}
+          autoplay
+          loop
+          muted
+          playsinline
+          preload="auto"
+        ></video>
+
+        <!-- Layer 1: 新增页面同色层（内部放相同 h1，字形处物理镂空透出视频） -->
+        <div class="hero-layer-mask" aria-hidden="true">
+          <h1 class="hero-mask-h1">Project<br>Unpredictable</h1>
+        </div>
+
+        <!-- Layer 2: 原版静态海报层（首屏直出，视频就绪后平滑淡出） -->
+        <div class="hero-layer-poster">
+          <h1>Project<br>Unpredictable</h1>
+        </div>
+      </div>
       <div style="height: 10vh; flex-shrink: 0;" aria-hidden="true"></div>
       <Pill
         hoverable
@@ -113,4 +135,47 @@ const footnotes = [
       </div>
     </div>
   </section>
+
+  <script>
+    function initHeroVideo() {
+      const container = document.querySelector('.hero-composition');
+      const video = container?.querySelector<HTMLVideoElement>('.hero-layer-video');
+      if (!container || !video) return;
+
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return;
+      }
+
+      let isReady = false;
+      let inView = false;
+
+      const onReady = () => {
+        isReady = true;
+        container.classList.add('is-ready');
+        if (inView) {
+          video.play().catch(() => {});
+        }
+      };
+
+      if (video.readyState >= 3) {
+        onReady();
+      } else {
+        video.addEventListener('canplaythrough', onReady, { once: true });
+      }
+
+      const observer = new IntersectionObserver(([entry]) => {
+        inView = entry.isIntersecting;
+        if (inView) {
+          if (isReady) video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      }, { threshold: 0 });
+
+      observer.observe(container);
+    }
+
+    initHeroVideo();
+    document.addEventListener('astro:page-load', initHeroVideo);
+  </script>
 </BaseLayout>

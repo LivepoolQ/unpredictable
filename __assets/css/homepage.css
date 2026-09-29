@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2026-01-27 17:30:40
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2026-09-24 15:29:19
+ * @LastEditTime: 2026-09-29 11:09:32
  * @Github: https://cocoon2wong.github.io
  * Copyright 2026 Conghao Wong, All Rights Reserved.
  */
@@ -153,12 +153,12 @@ body:has(.hero-scene) .main-page-container {
 
 /* Light 模式：白色背景 */
 html:not(.dark-mode) .hero-scene {
-  background-color: #ffffff;
+  background-color: var(--level1-bg-color);
 }
 
 /* Dark 模式：灰色背景 */
 html.dark-mode .hero-scene {
-  background-color: #3a3a3c;
+  background-color: var(--level2-bg-color-dark);
 }
 
 .hero-scene-inner {
@@ -171,11 +171,76 @@ html.dark-mode .hero-scene {
   text-align: center;
 }
 
-/* 文字居中放大，文字本身用现在的背景图片填充 */
-.hero-scene-inner h1 {
+/* =====================================================
+   Hero Scene 三层叠加与原生颜色镂空
+   ===================================================== */
+
+/* 1. 颜色 Token 映射：纯粹使用 Token，严禁任何硬编码默认值 */
+.hero-scene {
+  --hero-current-bg: var(--level1-bg-color);
+}
+html.dark-mode .hero-scene {
+  --hero-current-bg: var(--level2-bg-color-dark);
+}
+
+/* 2. 主容器：保持与原版 h1 完全一致的外边距与居中定位 */
+.hero-composition {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 1.25rem auto;
+  display: block;
+  isolation: isolate;
+}
+
+/* 通用排版规则：原版 h1 的字体规范完全保持一致 */
+.hero-composition h1 {
   font-size: clamp(4rem, 8vw, 6rem);
   text-align: center;
   text-shadow: none;
+  margin: 0;
+  padding-bottom: 0.12em;
+  line-height: 1.1;
+}
+
+/* Layer 0: 底层视频 */
+.hero-layer-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Layer 1: 新增的页面原生颜色遮罩层 */
+.hero-layer-mask {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--hero-current-bg);
+  z-index: 2;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+/* 遮罩层内部的 h1：保持透明孔洞 */
+.hero-layer-mask .hero-mask-h1 {
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+}
+
+/* Layer 2: 顶层原版静态海报（负责首屏与平滑过渡） */
+.hero-layer-poster {
+  position: relative;
+  z-index: 3;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.hero-layer-poster h1 {
   background-image: var(--bg);
   background-size: cover;
   background-position: center;
@@ -183,9 +248,11 @@ html.dark-mode .hero-scene {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  margin-top: 0;
-  margin-bottom: 1.25rem;
-  line-height: 1.1;
+}
+
+/* 视频就绪状态：顶层静态海报淡出，自然显出中层透明孔洞透出的动态视频 */
+.hero-composition.is-ready .hero-layer-poster {
+  opacity: 0;
 }
 
 /* 下方按钮：完全继承原按钮现有显示规则，样式不动 */
