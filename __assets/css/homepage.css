@@ -215,12 +215,18 @@ html.dark-mode .hero-scene {
   z-index: 1;
 }
 
-/* Layer 1: 新增的页面原生颜色遮罩层 */
+/* Layer 1: 新增的页面原生颜色遮罩层（增加安全外扩与内边距防漏） */
 .hero-layer-mask {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  padding: 20px;
+  box-sizing: border-box;
+
   background-color: var(--hero-current-bg);
   z-index: 2;
   mix-blend-mode: screen;
