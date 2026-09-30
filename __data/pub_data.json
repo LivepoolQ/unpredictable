@@ -13,11 +13,12 @@
     {
         "title": "Socialality Anchors: Towards Group-bounded Trajectory Prediction",
         "authors": "Z. Zou, C. Wong, Q. Peng, X. You.",
-        "status": "I",
-        "journal": "",
+        "status": "J",
+        "journal": "International Journal of Computer Vision, 2026",
         "github": "https://github.com/LivepoolQ/Socialality",
-        "arxiv": "",
-        "picture": "0000_WIP.png",
+        "arxiv": "https://arxiv.org/abs/2609.36852",
+        "homepage": "https://livepoolq.github.io/Socialality",
+        "picture": "2026_sa.png",
         "year": 2026
     },
     {
